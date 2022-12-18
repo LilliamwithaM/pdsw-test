@@ -26,5 +26,5 @@ jobs:
 
       - name: Test
         run: |
-          npm test -- --no-watch --no-progress --browsers=pdsw-test
+          npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
 

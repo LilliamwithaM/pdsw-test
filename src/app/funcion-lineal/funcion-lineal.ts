@@ -1,10 +1,8 @@
-export function funcionlineal(x : number[], a : number, b : number){
-    y : Number[];
-    var numDatos;
-    numDatos = x.length;
+export function variacion(a : number, b :number, x :number[]){
+    let y = [];
 
-    for (var i = 0; i<numDatos; i++){
-        y = a * x + b;
+    for (let i = 0; i<4; i++){
+        y[i] = a *x[i] + b;
     }
-    
+    return y;
 }

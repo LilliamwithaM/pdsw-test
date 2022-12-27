@@ -1,1 +1,36 @@
-<p>ui works!</p>
+<div class="contenedor">
+    <form>
+    <div class="input-gruop">
+        <span class="icon-input1" ><i>a</i></span>
+        <input type="number" [(ngModel)]="a" class = "data-input" name="a"
+        placeholder = "0.0"/>
+    </div>
+    <hr>
+    <div>
+        <span class="icon-input2"><i>b</i></span>
+        <input type="number" [(ngModel)]="b" class = "data-input" name="b"
+        placeholder="0.0" />
+    </div>
+    <hr>
+    <div>
+        <span class="icon-input3"><i>x</i></span>
+        <input type="" [(ngModel)]="x" class = "data-input" name="x"
+        placeholder="0.0, 0.0, 0.0, 0.0" />
+    </div>
+    <hr>
+    </form>
+
+    <div class="gruop-buttons">
+        <div class="buttons Variacion-button" (click)="variacion()">
+            <i>Variacion<Main></Main></i>
+        </div>
+    </div>
+    <hr>
+
+    <div id="result-box">
+        <div class="Variacion-container">
+            <div class="Variacion resultV"><span>Resultado de variacion = </span>{{ TextV }}</div>
+        </div>
+    </div>
+</div>
+<hr>

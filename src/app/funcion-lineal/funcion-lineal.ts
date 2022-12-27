@@ -6,3 +6,4 @@ export function variacion(a : number, b :number, x :number[]){
     }
     return y;
 }
+

@@ -1,0 +1,84 @@
+.contenedor {
+    margin-right: 10vw;
+    display: inline-flexbox;
+    place-items: center;
+    border-radius: 1vh;
+    margin: 0vw;
+}
+
+.input {
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0 4vh 0;
+}
+
+.icon-input1{
+    font-size: 2.5vh;
+    padding: 0 1vw;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon-input2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 2.5vh;
+    padding: 0 1vw;
+}
+
+.icon-input3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 2.5vh;
+    padding: 0 1vw;
+}
+
+.icon-input4{
+    font-family: 'Gothic';
+    font-size: 2.5vh;
+    padding: 0 1vw;
+}
+
+.data-input {
+    width: 30vw;
+    height: 100%;
+    padding: .30em;
+    border-radius: 1vh;
+    border-style: solid;
+    font-size: 1em;
+}
+
+.gruop-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    margin: 0 1vw;
+    height: 4vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 2.5vh;
+    padding: 0.1vw;
+    background-color: aliceblue;
+}
+
+.resultV {
+    margin: 2vw;
+    height: 6vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 0 1vw;
+    font-size: 3vh;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
